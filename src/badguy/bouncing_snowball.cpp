@@ -58,7 +58,7 @@ BouncingSnowball::active_update(float dt_sec)
   if (m_frozen)
     return;
 
-  if ((m_sprite->get_action() == "left-up" || m_sprite->get_action() == "right-up") && m_sprite->animation_done())
+  if ((m_sprite->get_action() == "left" || m_sprite->get_action() == "right") && m_sprite->animation_done())
   {
     set_action(m_dir);
   }
@@ -70,9 +70,9 @@ BouncingSnowball::active_update(float dt_sec)
   bool groundBelow = !Sector::get().is_free_of_statics(lookbelow);
   if (groundBelow && (m_physic.get_velocity_y() >= 64.0f))
   {
-    set_action(m_dir, "down");
+    set_action(m_dir, "left");
   }
-  if (!groundBelow && (m_sprite->get_action() == "left-down" || m_sprite->get_action() == "right-down"))
+  if (!groundBelow && (m_sprite->get_action() == "left" || m_sprite->get_action() == "right"))
   {
     set_action(m_dir);
   }
@@ -105,7 +105,7 @@ BouncingSnowball::get_default_sprite_name() const
   switch (m_type)
   {
     case FATBAT:
-      return "images/creatures/fatbat/fatbat.sprite";
+      return "images/creatures/bouncing_snowball/fatbat/fatbat.sprite";
     default:
       return m_default_sprite_name;
   }
