@@ -27,7 +27,7 @@ static const float FISH_WAIT_TIME = 1.f;
 static const float FISH_BEACH_TIME = 5.f;
 
 FishJumping::FishJumping(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/fish/forest/jumpfish.sprite"),
+  BadGuy(reader, "images/creatures/fish/fish.sprite"),
   m_wait_timer(),
   m_beached_timer(),
   m_stop_y(0)
@@ -110,7 +110,7 @@ FishJumping::active_update(float dt_sec)
 
   // Set sprite.
   if (!m_frozen && !is_ignited())
-    set_action((m_physic.get_velocity_y() == 0.f && m_in_water) ? "wait" :
+    set_action((m_physic.get_velocity_y() == 0.f && m_in_water) ? "down" :
       m_physic.get_velocity_y() < 0.f ? "normal" : "down");
 
   // We can't afford flying out of the tilemap, 'cause the engine would remove us.
