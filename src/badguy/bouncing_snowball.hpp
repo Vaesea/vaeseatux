@@ -23,7 +23,6 @@ class BouncingSnowball final : public BadGuy
 {
 public:
   BouncingSnowball(const ReaderMapping& reader);
-  BouncingSnowball(const Vector& pos, Direction d, float x_vel = 80);
 
   virtual void initialize() override;
 
@@ -58,11 +57,14 @@ private:
     FATBAT
   };
 
+<<<<<<< HEAD
   float m_x_speed;
   Timer m_turn_around_timer;
   int m_turn_around_counter; /**< Counts number of turns since turn_around_timer was started */
 
 
+=======
+>>>>>>> parent of dc981ecf1 (Update yeti behavior (#2969))
 private:
   BouncingSnowball(const BouncingSnowball&) = delete;
   BouncingSnowball& operator=(const BouncingSnowball&) = delete;

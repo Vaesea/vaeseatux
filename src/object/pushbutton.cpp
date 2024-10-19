@@ -17,7 +17,6 @@
 #include "object/pushbutton.hpp"
 
 #include "audio/sound_manager.hpp"
-#include "object/bigsnowball.hpp"
 #include "object/player.hpp"
 #include "object/rock.hpp"
 #include "sprite/sprite.hpp"
@@ -89,9 +88,7 @@ PushButton::collision(GameObject& other, const CollisionHit& hit)
 {
   auto player = dynamic_cast<Player*>(&other);
   auto rock = dynamic_cast<Rock*>(&other);
-  auto bs = dynamic_cast<BigSnowball*>(&other);
-
-  if (!player && !rock && !bs)
+  if (!player && !rock)
     return FORCE_MOVE;
 	if (player)
   {

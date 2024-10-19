@@ -44,8 +44,6 @@ public:
 
   Physic& get_physic();
 
-  void bounce();
-
 private:
   Physic m_physic;
 
