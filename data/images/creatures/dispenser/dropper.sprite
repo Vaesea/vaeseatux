@@ -1,0 +1,7 @@
+(supertux-sprite
+ (action
+  (name "dropper")
+  (hitbox 2 3 64 32)
+  (images "dropper.png"))
+)
+

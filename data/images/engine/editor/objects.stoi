@@ -1,7 +1,7 @@
 (supertux-objectinfo
 
  (objectgroup
-  (name ( _"Enemies"))
+  (name ( _"Snow Enemies"))
   (worldmap #f)
   (object
     (class "snowball")
@@ -13,23 +13,13 @@
     (class "flyingsnowball")
     (icon "images/creatures/flying_snowball/left-1.png"))
   (object
-    (class "spiky")
-    (icon "images/creatures/spiky/spiky-1.png"))
-  (object
-    (class "sspiky")
-    (icon "images/creatures/spiky/spiky_sleep-0.png"))
-  (object
-    (class "jumpy")
-    (icon "images/creatures/jumpy/left-up.png"))
-  (object
     (class "mriceblock")
     (icon "images/creatures/mr_iceblock/left-2.png"))
-  (object
-    (class "stalactite")
-    (icon "images/creatures/stalactite/falling.png"))
-  (object
-    (class "fish-jumping")
-    (icon "images/creatures/fish/left-0.png"))
+ )
+
+ (objectgroup
+  (name ( _"Forest Enemies"))
+  (worldmap #f)
   (object
     (class "viciousivy")
     (icon "images/creatures/poison_ivy/left-0.png"))
@@ -55,6 +45,32 @@
     (class "zeekling")
     (icon "images/creatures/zeekling/left-0.png"))
   (object
+    (class "toad")
+    (icon "images/creatures/toad/toad-idle-0.png"))
+  (object
+    (class "totem")
+    (icon "images/creatures/totem/walking1.png"))
+ )
+
+ (objectgroup
+  (name ( _"Misc Enemies"))
+  (worldmap #f)
+  (object
+    (class "spiky")
+    (icon "images/creatures/spiky/left-1.png"))
+  (object
+    (class "sspiky")
+    (icon "images/creatures/spiky/sleeping-left.png"))
+  (object
+    (class "jumpy")
+    (icon "images/creatures/jumpy/left-up.png"))
+  (object
+    (class "stalactite")
+    (icon "images/creatures/stalactite/falling.png"))
+  (object
+    (class "fish-jumping")
+    (icon "images/creatures/fish/left-0.png"))
+  (object
     (class "darttrap")
     (icon "images/creatures/darttrap/idle.png"))
   (object
@@ -66,12 +82,6 @@
   (object
     (class "willowisp")
     (icon "images/creatures/willowisp/editor.png"))
-  (object
-    (class "toad")
-    (icon "images/creatures/toad/toad-idle-0.png"))
-  (object
-    (class "totem")
-    (icon "images/creatures/totem/walking1.png"))
  )
 
  (objectgroup
@@ -82,15 +92,15 @@
     (icon "images/creatures/yeti/hudlife.png"))
   (object
     (class "ghosttree")
-    (icon "images/creatures/ghosttree/ghosttree.png"))
+    (icon "images/creatures/ghosttree/hudlife.png"))
+  (object
+    (class "yeti_stalactite")
+    (icon "images/engine/editor/stalactite_ice_yeti.png"))
  )
 
  (objectgroup
   (name (_"Projectiles"))
   (worldmap #f)
-  (object
-    (class "yeti_stalactite")
-    (icon "images/engine/editor/stalactite_ice_yeti.png"))
   (object
     (class "dart")
     (icon "images/creatures/dart/flying.png"))
@@ -104,7 +114,7 @@
     (icon "images/objects/bonus_block/full-0.png"))
   (object
     (class "infoblock")
-    (icon "images/objects/bonus_block/infoblock-0.png"))
+    (icon "images/objects/bonus_block/infoblock.png"))
   (object
     (class "invisible_block")
     (icon "images/objects/bonus_block/bonus-invisible.png"))
@@ -114,9 +124,6 @@
   (object
     (class "coin")
     (icon "images/objects/coin/coin-0.png"))
-  (object
-    (class "heavycoin")
-    (icon "images/engine/editor/heavy_coin.png"))
   (object
     (class "powerup")
     (icon "images/engine/editor/powerup.png"))
