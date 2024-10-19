@@ -79,6 +79,7 @@
 #include "badguy/yeti.hpp"
 #include "badguy/yeti_stalactite.hpp"
 #include "badguy/zeekling.hpp"
+#include "badguy/stony.hpp"
 #include "math/vector.hpp"
 #include "object/ambient_light.hpp"
 #include "object/ambient_sound.hpp"
@@ -245,6 +246,7 @@ GameObjectFactory::init_factories()
   add_factory<Yeti>("yeti");
   add_factory<YetiStalactite>("yeti_stalactite");
   add_factory<Zeekling>("zeekling", OBJ_PARAM_DISPENSABLE);
+  add_factory<Stony>("stony", OBJ_PARAM_DISPENSABLE);
   m_adding_badguys = false;
 
   // Other objects.

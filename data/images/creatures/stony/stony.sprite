@@ -1,0 +1,23 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 0 7 35 20)
+    (images "stony-0.png"
+            "stony-1.png"
+            "stony-2.png"
+            "stony-3.png")
+  )
+  (action
+    (hitbox 0 7 35 20)
+    (name "right")
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (images "stony-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (mirror-action "shattered-left")
+  )
+)
