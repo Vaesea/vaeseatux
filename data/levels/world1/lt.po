@@ -1,29 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Mantas Kriaučiūnas <mantas@akl.lt>, 2015
-# Andrius Štikonas <andrius@stikonas.eu>, 2006
+# Lithuanian translations for world package.
+# Copyright (C) 2006 THE world'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the world package.
+#  <stikonas@gmail.com>, 2006.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: SuperTux\n"
+"Project-Id-Version: world 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 15:35+0200\n"
-"PO-Revision-Date: 2016-05-09 09:26+0000\n"
-"Last-Translator: Benjamin Leduc <giby_the_kid@yahoo.fr>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/arctic-games/supertux/language/lt/)\n"
+"POT-Creation-Date: 2007-05-20 13:58+0200\n"
+"PO-Revision-Date: 2007-01-24 22:54+0300\n"
+"Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: data/levels/world1/01 - Welcome to Antarctica.stl:3
 msgid "Welcome to Antarctica"
 msgstr "Sveikas atvykęs į Antarktidą"
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:63
+#: data/levels/world1/01 - Welcome to Antarctica.stl:32
 msgid ""
 "-Bonus Blocks\n"
 "!images/objects/bonus_block/full-0.png\n"
@@ -32,42 +29,42 @@ msgid ""
 "#Hit them from below to get at their contents."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:72
+#: data/levels/world1/01 - Welcome to Antarctica.stl:41
 msgid ""
 "-Eggs\n"
 "!images/powerups/egg/egg.png\n"
 "#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:79
+#: data/levels/world1/01 - Welcome to Antarctica.stl:48
 msgid ""
 "-Checkpoints\n"
 "!images/objects/resetpoints/bell-m.png\n"
-"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+"#Activate the checkpoint. As long as you have at least 25 coins left, you can retry the level from here."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:86
+#: data/levels/world1/01 - Welcome to Antarctica.stl:55
 msgid ""
 "-Running\n"
 "!images/tiles/signs/run.png\n"
 "#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:93
+#: data/levels/world1/01 - Welcome to Antarctica.stl:62
 msgid ""
 "-Fire Flower\n"
 "!images/powerups/fireflower/fire_flower-0.png\n"
 "#The fire flower gives Tux the ability to shoot fireballs."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:100
+#: data/levels/world1/01 - Welcome to Antarctica.stl:69
 msgid ""
 "-Tux Doll\n"
 "!images/powerups/1up/1up.png\n"
 "#The Tux doll gives Tux 100 coins."
 msgstr ""
 
-#: data/levels/world1/01 - Welcome to Antarctica.stl:107
+#: data/levels/world1/01 - Welcome to Antarctica.stl:76
 msgid ""
 "-Secret Areas\n"
 "#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
@@ -83,11 +80,11 @@ msgstr "Via Nostalgica"
 
 #: data/levels/world1/04 - Tobgle Road.stl:3
 msgid "Tobgle Road"
-msgstr "Tobgle kelias"
+msgstr ""
 
 #: data/levels/world1/05 - The Somewhat Smaller Bath.stl:3
 msgid "The Somewhat Smaller Bath"
-msgstr "Nedidelis šikšnosparnis"
+msgstr ""
 
 #: data/levels/world1/06 - The Frosted Fields.stl:3
 msgid "The Frosted Fields"
@@ -177,86 +174,85 @@ msgstr "Noloko tvirtovė"
 msgid "No More Mr Ice Guy"
 msgstr "Daugiau jokių ponų Ledinių vyrukų"
 
-#: data/levels/world1/Fork_in_the_Road.stl:3
-msgid "A Fork in the Road"
-msgstr ""
-
-#: data/levels/world1/Fork_in_the_Road.stl:353
-msgid ""
-"-Switches\n"
-"!images/objects/switch/left-0.png\n"
-"!images/objects/switch/switch-0.png\n"
-"!images/objects/switch/right-0.png\n"
-"#Switches can be used to do all manner of things. Press the UP key to use switches.  This one activates the lift to your right."
-msgstr ""
-
-#: data/levels/world1/Fork_in_the_Road.stl:362
-msgid ""
-"-Trampolines\n"
-"!images/objects/trampoline/trampoline2-0.png\n"
-"#Trampolines allow Tux to jump to new heights. Hold down the jump key while bouncing on the trampoline to launch extra high."
-msgstr ""
-
-#: data/levels/world1/Fork_in_the_Road.stl:369
-msgid ""
-"- Climbing\n"
-"# Tux can climb!  Press the UP key to start climbing.  Press the ACTION key or jump to let go."
-msgstr ""
-
 #: data/levels/world1/bonus.stl:3
 msgid "Bonus Level"
-msgstr "Ypatingas  lygis"
+msgstr "Premijinis lygis"
+
+#: data/levels/world1/extro.txt:6
+msgid ""
+"-Entering Nolok's Throne Room!\n"
+"\n"
+"#Tux ran into Nolok's throne room,\n"
+"#frantically searching for his beloved.\n"
+"#Alas, he found neither Penny nor Nolok\n"
+"#there, but instead, another note.\n"
+"\n"
+"#\"Well done, Tux, well done. If you are\n"
+"#reading this, you have removed my\n"
+"#control over this icy fortress. But as\n"
+"#you can see, your beloved Penny is not\n"
+"#here. What you did not realize is that\n"
+"#this is just one of my many fortresses,\n"
+"#spread far across the lands!\n"
+"\n"
+"#\"Tux, your ambition is most honorable,\n"
+"#but futile nonetheless. With every\n"
+"#fortress you conquer of mine, I will\n"
+"#escape to another, and take Penny with\n"
+"#me. Do not be silly... it is best that\n"
+"#you give up now.\"\n"
+"\n"
+"#Tux was sadly leaving the room, when he\n"
+"#felt something beneath his foot... an\n"
+"#envelope, addressed to him! Inside was\n"
+"#a roughly sketched map with fortresses\n"
+"#drawn in various lands. On the corner\n"
+"#of the map was Penny's signature, a\n"
+"#drawing of the ice flower.\n"
+"\n"
+"#Tux ran out of the fortress, map in\n"
+"#hand. No, he decided, he would not give\n"
+"#up. Penny was counting on him."
+msgstr ""
+
+#: data/levels/world1/info:2
+#, fuzzy
+msgid "Icyisland levels"
+msgstr "Ledo sala"
 
 #: data/levels/world1/intro.stl:3
 msgid "Picnic With Penny"
-msgstr "Iškyla su Pene"
+msgstr "Piknikas su Penny"
 
-#: data/levels/world1/scripts_intro.txt:2
+#: data/levels/world1/intro.txt:5
 msgid ""
-"Somewhere at the shores\n"
-"of Antarctica..."
-msgstr "Kažkuriame Antarktidos\nkrante..."
-
-#: data/levels/world1/scripts_intro.txt:4
-msgid "Tux: Hello Penny"
-msgstr "Tuksas: Labas Pene"
-
-#: data/levels/world1/scripts_intro.txt:5
-msgid "Penny: Hey Tux"
-msgstr "Penė: Sveikas Tuksai"
-
-#: data/levels/world1/scripts_intro.txt:6
-msgid "Tux: Check out my dance moves."
-msgstr "Tuksas: Pažiūrėk į mano šokio judesius."
-
-#: data/levels/world1/scripts_intro.txt:7
-msgid "Tux: Oww... my head..."
-msgstr "Tuksas: Ooo... mano galva..."
-
-#: data/levels/world1/scripts_intro.txt:8
-msgid "Tux: Wait!"
-msgstr "Tuksas: Palauk!"
-
-#: data/levels/world1/scripts_intro.txt:9
-msgid "Tux: Penny!"
-msgstr "Tuksas: Pene!"
-
-#: data/levels/world1/scripts_intro.txt:10
-msgid "Tux: Where are you, Penny?!"
-msgstr "Tuksas: Kur tu esi, Pene?!"
-
-#: data/levels/world1/scripts_intro.txt:11
-msgid "Tux: Oh no..."
-msgstr "Tuksas: O ne..."
-
-#: data/levels/world1/scripts_intro.txt:12
-msgid "Tux: Don't worry, Penny, I'll rescue you!"
-msgstr "Tuksas: Nesijaudink, Pene, aš išgelbėsiu tave!"
+"-Penny gets captured!\n"
+"\n"
+"#Tux and Penny were out having a nice\n"
+"#picnic on the ice fields of Antarctica.\n"
+"#Suddenly, a creature jumped from\n"
+"#behind an ice bush, there was a flash,\n"
+"#and Tux fell asleep!\n"
+"\n"
+"#When Tux wakes up, he finds that Penny\n"
+"#is missing. Where she lay before now\n"
+"#lies a letter. \"Tux, my arch enemy!\"\n"
+"#says the letter. \"I have captured\n"
+"#your beautiful Penny and have taken her\n"
+"#to my fortress. The path to my fortress\n"
+"#is littered with my minions. Give up on\n"
+"#the thought of trying to reclaim her,\n"
+"#you haven't a chance! -Nolok\"\n"
+"\n"
+"#Tux looks and see Nolok's fortress in\n"
+"#the distance. Determined to save his\n"
+"#beloved Penny, he begins his journey."
+msgstr ""
 
 #: data/levels/world1/worldmap.stwm:3
 msgid "Icyisland"
 msgstr "Ledo sala"
 
-#: data/levels/world1/worldmap.stwm:37
-msgid "You Found a Secret Area!"
-msgstr "Jūs radote slapta zoną"
+#: data/levels/world1/worldmap.stwm:14
+msgid "You found a secret area!"
+msgstr "Tu radai slaptq vietą!"
