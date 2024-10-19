@@ -38,12 +38,6 @@ const T& clamp(const T& val, const T& min, const T& max)
   }
 }
 
-template<class T>
-bool in_bounds(const T& val, const T& min, const T& max)
-{
-  return val >= min && val <= max;
-}
-
 template <class T> int sgn(T val) {
     return (T(0) < val) - (val < T(0));
 }
