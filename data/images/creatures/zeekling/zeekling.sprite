@@ -20,11 +20,11 @@
   (hitbox 25 -19 31 30)
   (mirror-action "squished-left"))
  (action
-  (name "diving-left")
+  (name "dive-left")
   (hitbox 6 20 31 30)
   (images "diving.png"))
  (action
-  (name "diving-right")
+  (name "dive-right")
   (hitbox 27 20 31 30)
   (mirror-action "diving-left")
  )

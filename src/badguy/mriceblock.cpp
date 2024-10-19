@@ -71,7 +71,7 @@ MrIceBlock::get_default_sprite_name() const
   switch (m_type)
   {
     case LAPTOP:
-      return "images/creatures/laptop/laptop.sprite";
+      return "images/creatures/mr_iceblock/mr_iceblock.sprite";
     default:
       return m_default_sprite_name;
   }

@@ -25,7 +25,7 @@ static const float HORIZONTAL_SPEED = 220; /**< X-speed when jumping. */
 static const float VERTICAL_SPEED = -450;   /**< Y-speed when jumping. */
 
 CorruptedGranito::CorruptedGranito(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/granito/corrupted/corrupted_granito.sprite"),
+  BadGuy(reader, "images/creatures/skullyhop/skullyhop.sprite"),
   recover_timer(),
   state()
 {
@@ -183,11 +183,11 @@ CorruptedGranito::get_default_sprite_name() const
   switch (m_type)
   {
     case GRANITO:
-      return "images/creatures/granito/corrupted/corrupted_granito.sprite";
+      return "images/creatures/skullyhop/skullyhop.sprite";
     case SKULLYHOP:
       return "images/creatures/skullyhop/skullyhop.sprite";
   }
-  return "images/creatures/granito/corrupted/corrupted_granito.sprite";
+  return "images/creatures/skullyhop/skullyhop.sprite";
 }
 
 /* EOF */

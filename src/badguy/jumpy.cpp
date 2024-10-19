@@ -26,7 +26,7 @@ static const float JUMPY_MID_TOLERANCE = 4;
 static const float JUMPY_LOW_TOLERANCE = 2;
 
 Jumpy::Jumpy(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/jumpy/snowjumpy.sprite"),
+  BadGuy(reader, "images/creatures/jumpy/jumpy.sprite"),
   pos_groundhit(0.0f, 0.0f),
   groundhit_pos_set(false)
 {
@@ -55,13 +55,13 @@ Jumpy::get_default_sprite_name() const
   switch (m_type)
   {
     case WOODEN:
-      return "images/creatures/jumpy/woodjumpy.sprite";
+      return "images/creatures/jumpy/jumpy.sprite";
     case CORRUPTED:
-      return "images/creatures/jumpy/corruptjumpy.sprite";
+      return "images/creatures/jumpy/jumpy.sprite";
     case METAL:
-      return "images/creatures/jumpy/metaljumpy.sprite";
+      return "images/creatures/jumpy/jumpy.sprite";
     case BAG:
-      return "images/creatures/bag/bag.sprite";
+      return "images/creatures/jumpy/jumpy.sprite";
     default:
       return m_default_sprite_name;
   }

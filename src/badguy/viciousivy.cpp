@@ -25,14 +25,14 @@
 #include "supertux/sector.hpp"
 
 ViciousIvy::ViciousIvy(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/vicious_ivy/vicious_ivy.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/poison_ivy/poison_ivy.sprite", "left", "right"),
   m_fall_speed()
 {
   parse_type(reader);
 }
 
 ViciousIvy::ViciousIvy(const Vector& pos, Direction d) :
-  WalkingBadguy(pos, d, "images/creatures/vicious_ivy/vicious_ivy.sprite", "left", "right"),
+  WalkingBadguy(pos, d, "images/creatures/poison_ivy/poison_ivy.sprite", "left", "right"),
   m_fall_speed()
 {
 }
@@ -52,7 +52,7 @@ ViciousIvy::get_default_sprite_name() const
   switch (m_type)
   {
     case CORRUPTED:
-      return "images/creatures/vicious_ivy/corrupted/rotten_ivy.sprite";
+      return "images/creatures/poison_ivy/poison_ivy.sprite";
     default:
       return m_default_sprite_name;
   }
