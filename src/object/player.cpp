@@ -65,6 +65,8 @@ const int TIME_UNTIL_IDLE = 5000;
 const std::vector<std::string> IDLE_STAGES
 ({
   "stand",
+  "scratch",
+  "idle"
 });
 
 /** acceleration in horizontal direction when walking
