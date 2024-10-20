@@ -64,3 +64,9 @@ And it also aims to finish 0.3.2 using the plans that the old SuperTux team had,
 - Kroetie (hey isn't this just a koopa?) (Misc)
 - Mummi (Desert / Tropical)
 - Giant Icecrusher (Miniboss)
+- Treetop Levels (Normal Forest, Corrupted Forest)
+- Wall Stone Level (Transition to Corrupted Forest)
+- Better Flame Fish
+
+# Concepts
+![forest](https://github.com/user-attachments/assets/6c2b762e-fd8d-44b2-952f-4b66e6983143)
