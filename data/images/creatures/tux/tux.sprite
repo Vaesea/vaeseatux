@@ -11,43 +11,49 @@
 
        (action
          (name "small-stand-right")
-         (fps 10.0)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/stand-0.png"))
 
        (action
          (name "small-stand-left")
-         (fps 10.0)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-stand-right"))
 
        (action
+         (name "small-scratch-right")
+         (hitbox 16 16 32 32)
+         (images "small/stand-0.png"))
+
+       (action
+         (name "small-scratch-left")
+         (hitbox 16 16 32 32)
+         (mirror-action "small-scratch-right"))
+
+       (action
          (name "small-idle-right")
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/idle-0.png"))
 
        (action
          (name "small-idle-left")
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-idle-right"))
 
 	     (action
          (name "small-scratch-right")
-         (fps 12.0)
-         (hitbox 16 26 32 32)
-         (images "small/stand-0"))
+         (hitbox 16 16 32 32)
+         (images "small/stand-0.png"))
 
        (action
          (name "small-scratch-left")
-         (fps 12.0)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-scratch-right"))
 
        (action
          (name "small-walk-right")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/walk_transition-0.png"
                  "small/walk-0.png"
                  "small/walk-1.png"
@@ -62,14 +68,14 @@
          (name "small-walk-left")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-walk-right"))
 
        (action
          (name "small-run-right")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 18 26 32 32)
+         (hitbox 18 16 32 32)
          (images "small/walk_transition-0.png"
                  "small/walk-0.png"
                  "small/walk-1.png"
@@ -84,81 +90,63 @@
          (name "small-run-left")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 20 26 32 32)
+         (hitbox 20 16 32 32)
          (mirror-action "small-run-right"))
 
        (action
          (name "small-jump-right")
-         (fps 15.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/jump-0.png"))
 
        (action
          (name "small-jump-left")
-         (fps 15.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-jump-right"))
 
 	     (action
          (name "small-fall-right")
-         (fps 15.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/jump-0.png"))
 
        (action
          (name "small-fall-left")
-         (fps 15.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-fall-right"))
 
        (action
          (name "small-walljump-right")
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/walljump-0.png"))
 
        (action
          (name "small-walljump-left")
-         (fps 20.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-walljump-right"))
 
        (action
          (name "small-skid-right")
-         (fps 20.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/skid-0.png"))
 
        (action
          (name "small-skid-left")
-         (fps 20.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-skid-right"))
 
        (action
          (name "small-kick-right")
-         (fps 20.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/kick-0.png"))
 
        (action
          (name "small-kick-left")
-         (fps 20.0)
-         (loops 1)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-kick-right"))
 
        (action
          (name "small-climb-right")
          (fps 15.0)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (images "small/climb-0.png"
                  "small/climb-1.png"
                  "small/climb-2.png"
@@ -171,32 +159,26 @@
        (action
          (name "small-climb-left")
          (fps 15.0)
-         (hitbox 16 26 32 32)
+         (hitbox 16 16 32 32)
          (mirror-action "small-climb-right"))
 
 	     (action
          (name "small-slide-right")
-         (fps 30.0)
-         (loops 1)
-         (hitbox 24 26 32 32)
+         (hitbox 24 16 32 32)
          (images "small/slide-0.png"))
 
   	   (action
          (name "small-slide-left")
-         (fps 30.0)
-         (loops 1)
-         (hitbox 24 26 32 32)
+         (hitbox 24 16 32 32)
          (mirror-action "small-slide-right"))
 
 	     (action
          (name "small-slidejump-right")
-         (fps 18.0)
          (hitbox 16 14 32 32)
-         (images "small/jump-0.png"))
+         (images "small/slide-0.png"))
 
        (action
          (name "small-slidejump-left")
-         (fps 18.0)
          (hitbox 16 14 32 32)
          (mirror-action "small-slidejump-right"))
 
