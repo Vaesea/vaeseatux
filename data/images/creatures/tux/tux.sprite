@@ -237,10 +237,7 @@
          (fps 20.0)
          (loops 1)
          (hitbox 16 26 32 32)
-         (images "small/skid-0.png"
-                 "small/skid-1.png"
-                 "small/skid-2.png"
-                 "small/skid-3.png"))
+         (images "small/skid-0.png"))
 
        (action
          (name "small-skid-left")
