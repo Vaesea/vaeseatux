@@ -409,8 +409,7 @@
                  "small/grow-3.png"
                  "small/grow-4.png"
                  "small/grow-5.png"
-                 "small/grow-6.png"
-                 "small/grow-7.png"))
+                 "small/grow-6.png"))
 
        (action
          (name "grow-left")
