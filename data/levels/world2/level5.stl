@@ -1,106 +1,104 @@
 (supertux-level
-  (version 2)
+  (version 3)
   (name (_ "Green Hills"))
   (author "Anubis")
+  (contact "this level is :(")
   (license "GPL 2+ / CC-by-sa 3.0")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
   (sector
     (name "main")
-    (music "music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (init-script "Camera.set_scale(1.4);")
+    (ambient-light
+      (color 1 1 1)
+    )
     (background
+      (color 1 1 1)
       (speed 0.1)
       (image "images/background/forest1.jpg")
     )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
+      (z-pos 1)
       (sector "main")
+      (locked #f)
       (spawnpoint "spawn1")
       (x 1824)
       (y 1436)
     )
     (door
+      (z-pos 1)
       (sector "sector1")
+      (locked #f)
       (spawnpoint "spawn2")
       (x 5030)
       (y 92)
     )
     (jumpy
+      (z-pos 50)
       (x 7656)
       (y 1320)
     )
     (jumpy
+      (z-pos 50)
       (x 7817)
       (y 1255)
     )
     (jumpy
+      (z-pos 50)
       (x 7978)
       (y 1190)
     )
     (jumpy
+      (z-pos 50)
       (x 8135)
       (y 1253)
     )
     (mrtree
+      (z-pos 50)
       (x 2689)
       (y 1214)
     )
     (mrtree
+      (z-pos 50)
       (x 8145)
       (y 405)
     )
     (mrtree
+      (z-pos 50)
       (x 7900)
       (y 405)
     )
     (mrtree
+      (z-pos 50)
       (x 8344)
       (y 698)
     )
     (mrtree
+      (z-pos 50)
       (x 7928)
       (y 699)
     )
     (mrtree
+      (z-pos 50)
       (x 8275)
       (y 975)
     )
     (mrtree
+      (z-pos 50)
       (x 7750)
       (y 984)
     )
-    (poisonivy
-      (x 2391)
-      (y 1271)
-    )
-    (poisonivy
-      (x 2462)
-      (y 1269)
-    )
-    (poisonivy
-      (x 2661)
-      (y 1492)
-    )
-    (poisonivy
-      (x 2528)
-      (y 1493)
-    )
-    (poisonivy
-      (x 2407)
-      (y 1491)
-    )
-    (poisonivy
-      (x 6015)
-      (y 1235)
-    )
-    (poisonivy
-      (x 5925)
-      (y 1236)
-    )
-    (poisonivy
-      (x 5847)
-      (y 1236)
+    (music
+      (file "music/forest2.ogg")
     )
     (particles-rain
     )
@@ -132,8 +130,9 @@
       (y 128)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (tint 1 1 1 0.6)
+      (z-pos -100)
       (width 320)
       (height 50)
       (tiles
@@ -190,8 +189,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 320)
       (height 50)
       (tiles
@@ -248,8 +247,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (width 320)
       (height 50)
       (tiles
@@ -306,8 +305,9 @@
       )
     )
     (tilemap
-      (z-pos -99)
       (solid #f)
+      (tint 1 1 1 0.6)
+      (z-pos -99)
       (width 320)
       (height 50)
       (tiles
@@ -364,8 +364,8 @@
       )
     )
     (tilemap
-      (z-pos 99)
       (solid #f)
+      (z-pos 99)
       (width 320)
       (height 50)
       (tiles
@@ -421,23 +421,76 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
+    (viciousivy
+      (z-pos 50)
+      (x 2391)
+      (y 1271)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 2462)
+      (y 1269)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 2661)
+      (y 1492)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 2528)
+      (y 1493)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 2407)
+      (y 1491)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 6015)
+      (y 1235)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 5925)
+      (y 1236)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 5847)
+      (y 1236)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 576)
+      (y 768)
+    )
     (zeekling
+      (z-pos 50)
       (x 1204)
       (y 1239)
     )
   )
   (sector
     (name "sector1")
-    (music "music/forest2.ogg")
-    (ambient-light 1 1 1)
+    (ambient-light
+      (color 1 1 1)
+    )
     (camera
+      (name "Camera")
       (mode "normal")
     )
     (door
+      (z-pos 1)
       (sector "main")
+      (locked #f)
       (spawnpoint "spawn3")
       (x 878)
       (y 508)
+    )
+    (music
+      (file "music/forest2.ogg")
     )
     (spawnpoint
       (name "spawn2")
@@ -445,8 +498,8 @@
       (y 544)
     )
     (tilemap
-      (z-pos -100)
       (solid #f)
+      (z-pos -100)
       (width 30)
       (height 20)
       (tiles
@@ -473,8 +526,8 @@
       )
     )
     (tilemap
-      (z-pos 0)
       (solid #t)
+      (z-pos 0)
       (width 30)
       (height 20)
       (tiles
@@ -501,8 +554,8 @@
       )
     )
     (tilemap
-      (z-pos 100)
       (solid #f)
+      (z-pos 100)
       (width 30)
       (height 20)
       (tiles
