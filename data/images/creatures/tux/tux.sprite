@@ -11,49 +11,49 @@
 
        (action
          (name "small-stand-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/stand-0.png"))
 
        (action
          (name "small-stand-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-stand-right"))
 
        (action
          (name "small-scratch-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/stand-0.png"))
 
        (action
          (name "small-scratch-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-scratch-right"))
 
        (action
          (name "small-idle-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/idle-0.png"))
 
        (action
          (name "small-idle-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-idle-right"))
 
 	     (action
          (name "small-scratch-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/stand-0.png"))
 
        (action
          (name "small-scratch-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-scratch-right"))
 
        (action
          (name "small-walk-right")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/walk_transition-0.png"
                  "small/walk-0.png"
                  "small/walk-1.png"
@@ -68,14 +68,14 @@
          (name "small-walk-left")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-walk-right"))
 
        (action
          (name "small-run-right")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 18 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/walk_transition-0.png"
                  "small/walk-0.png"
                  "small/walk-1.png"
@@ -90,27 +90,27 @@
          (name "small-run-left")
          (fps 14.0)
          (loop-frame 2)
-         (hitbox 20 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-run-right"))
 
        (action
          (name "small-jump-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/jump-0.png"))
 
        (action
          (name "small-jump-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-jump-right"))
 
 	     (action
          (name "small-fall-right")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (images "small/jump-0.png"))
 
        (action
          (name "small-fall-left")
-         (hitbox 16 16 32 32)
+         (hitbox 8 16 32 32)
          (mirror-action "small-fall-right"))
 
        (action
@@ -262,7 +262,7 @@
          (name "grow-right")
          (fps 16.0)
          (loops 1)
-         (hitbox 16 14 32 64)
+         (hitbox 16 4 32 64)
          (images "small/grow-0.png"
                  "small/grow-1.png"
                  "small/grow-2.png"
@@ -275,7 +275,7 @@
          (name "grow-left")
          (fps 16.0)
          (loops 1)
-         (hitbox 16 14 32 64)
+         (hitbox 16 4 32 64)
          (mirror-action "grow-right"))
 
        (action
