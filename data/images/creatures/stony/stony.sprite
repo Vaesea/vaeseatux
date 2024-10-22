@@ -1,23 +1,42 @@
 (supertux-sprite
   (action
     (name "left")
-    (hitbox 0 7 35 20)
+    (fps 4)
+    (hitbox 4 10 35 20)
     (images "stony-0.png"
             "stony-1.png"
-            "stony-2.png"
-            "stony-3.png")
+            "stony-0.png"
+            "stony-2.png")
   )
   (action
-    (hitbox 0 7 35 20)
+    (name "slowdown-left")
+    (fps 4)
+    (hitbox 4 10 35 20)
+    (images "stony-0.png"
+            "stony-1.png"
+            "stony-0.png"
+            "stony-2.png")
+  )
+  (action
+    (hitbox 4 10 35 20)
+    (name "slowdown-right")
+    (fps 4)
+    (mirror-action "slowdown-left")
+  )
+  (action
+    (hitbox 4 10 35 20)
     (name "right")
+    (fps 4)
     (mirror-action "left")
   )
   (action
     (name "squished-left")
+    (hitbox 0 2 35 20)
     (images "stony-squished.png")
   )
   (action
     (name "squished-right")
-    (mirror-action "shattered-left")
+    (hitbox 0 2 35 20)
+    (mirror-action "squished-left")
   )
 )
