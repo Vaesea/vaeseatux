@@ -112,7 +112,7 @@ const float KICK_TIME = .3f;
 const float UNDUCK_HURT_TIME = 0.25f;
 /** gravity is higher after the jump key is released before
     the apex of the jump is reached */
-const float JUMP_EARLY_APEX_FACTOR = 3.0;
+const float JUMP_EARLY_APEX_FACTOR = 1.0;
 
 const float JUMP_GRACE_TIME = 0.25f; /**< time before hitting the ground that the jump button may be pressed (and still trigger a jump) */
 const float COYOTE_TIME = 0.1f; /**< time between the moment leaving a platform without jumping and being able to jump anyways despite being in the air */
@@ -1217,7 +1217,7 @@ Player::handle_horizontal_input()
     }
     else {
       // give Tux tighter air control
-      ax *= 1.f;
+      ax *= 2.f;
     }
   }
 
