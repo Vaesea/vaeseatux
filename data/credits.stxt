@@ -22,7 +22,7 @@
     (blank)
 	(text
       (type "heading")
-      (string (_ "Current SuperTux Team"))
+      (string (_ "0.7.0 SuperTux Team"))
     )
 	(blank)
 	(person
@@ -117,8 +117,13 @@
     (blank)
     (person
       (name "Stephen Groundwater")
-      (info (_ "Graphics"))
+      (info (_ "Graphics, Forest World Adventure Pack"))
       (image "images/credits/gwater.jpg")
+    )
+    (blank)
+    (person
+      (name "jobromedia")
+      (info (_ "totem.png, totem2.png, Totem Construction Kit"))
     )
     (blank)
     (person
@@ -1244,95 +1249,18 @@
       (blank)
       (person
         (name  (_ "and you, the player"))
-        (info (_ "for giving this game a chance and playing it"))
+        (info (_ "for giving this mod a chance and playing it"))
       )
       (blank)
       (blank)
-      (text
-        (type "heading")
-        (string (_ "Contact"))
-      )
       (blank)
       (text
         (type "normal")
-        (string (_ "Visit our webpage at"))
+        (string (_ "If you wan to help, visit"))
       )
       (text
         (type "reference")
-        (string "https://supertux.org")
-      )
-      (blank)
-      (text
-        (type "normal")
-        (string (_ "Or visit us directly at IRC:"))
-      )
-      (text
-        (type "reference")
-        (string (_ "#supertux at web.libera.chat"))
-      )
-      (blank)
-      (text
-        (type "normal")
-        (string (_ "Or at our Forum:"))
-      )
-      (text
-        (type "reference")
-        (string "http://forum.freegamedev.net/viewforum.php?f=66")
-      )
-      (blank)
-      (text
-        (type "normal")
-        (string (_ "Comments, ideas and suggestions"))
-      )
-      (text
-        (type "normal")
-        (string (_ "go to our mailing list"))
-      )
-      (text
-        (type "reference")
-        (string "supertux-devel@lists.lethargik.org")
-      )
-      (blank)
-      (text
-        (type "normal")
-        ; l10n: typo contact
-        (string (_ "Typographical errors can be"))
-      )
-      (text
-        (type "normal")
-        ; l10n: typo contact
-        (string (_ "reported to"))
-      )
-      (text
-        (type "reference")
-        ; l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
-        (string (_ "supertux-devel@lists.lethargik.org"))
-      )
-      (blank)
-      (blank)
-      (blank)
-      (text
-        (type "heading")
-        (string (_ "Want to help…"))
-      )
-      (blank)
-      (text
-        (type "normal")
-        (string (_ "…with localization?"))
-      )
-      (text
-        (type "reference")
-        (string "https://www.transifex.com/arctic-games/supertux/")
-      )
-      (blank)
-      (blank)
-      (text
-        (type "normal")
-        (string (_ "…with something else?"))
-      )
-      (text
-        (type "reference")
-        (string "https://github.com/supertux")
+        (string "https://github.com/Vaesea/vaeseatux")
       )
       (blank)
       (blank)
@@ -1348,12 +1276,12 @@
       (blank)
       (text
         (type "heading")
-        (string "SuperTux")
+        (string "VaeseaTux")
       )
       (blank)
 	  (text
         (type "normal")
-        (string (_ "Penny awaits you in warmer temperatures!"))
+        (string (_ "Penny awaits you in a desert!"))
       )
 	  (blank)
   )
