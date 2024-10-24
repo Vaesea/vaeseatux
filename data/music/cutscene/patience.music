@@ -1,0 +1,5 @@
+(supertux-music
+  (file "patience.ogg")
+  (loop-begin 0)
+  (loop-at    34)
+)

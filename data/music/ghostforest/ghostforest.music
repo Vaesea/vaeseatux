@@ -1,5 +1,5 @@
 (supertux-music
-  (file "cave.ogg")
+  (file "ghostforest.ogg")
   (loop-begin 0)
   (loop-at    -1)
 )
