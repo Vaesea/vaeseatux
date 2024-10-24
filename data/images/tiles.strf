@@ -255,7 +255,7 @@
     )
   )
   (tilegroup
-    (name "Ghost forest")
+    (name "Ghost Forest")
     (tiles
       1423 1424 1425 1426
       1427 1428 1429 1430
@@ -398,7 +398,7 @@
     )
   )
   (tilegroup
-    (name "Waterfall-trans")
+    (name "Waterfall-Trans")
     (tiles
       191 192 193 194
       187 188 189 190
@@ -416,13 +416,13 @@
       275 276 277 278)
   )
   (tilegroup
-    (name "Waterfall-edgecloud")
+    (name "Waterfall-EdgeCloud")
     (tiles
       195 0   196 0
       197 198 199)
   )
   (tilegroup
-    (name "Icebridge")
+    (name "Ice Bridge")
     (tiles
       1551 1540 1541 1545
       1549 1543 1544 1542
@@ -430,7 +430,7 @@
       0    0    0    1550)
   )
   (tilegroup
-    (name "LavaFlow")
+    (name "Lava")
     (tiles
       2136 2137 2138 2139    
       1711 1707 1701 1714
@@ -492,7 +492,7 @@
   )
         
 (tilegroup
- (name "Castle (snow)")
+ (name "Castle (Snow)")
  (tiles
  2091 2092 2093 0
  2096 2097 2098 0
@@ -510,7 +510,7 @@
 ))
 
   (tilegroup
-    (name "Cave background")
+    (name "Cave Background")
     (tiles
       70 0 0 0
       0  0 0 0
@@ -6892,6 +6892,21 @@
     (id 2153)
     (unisolid #t)
     (editor-images "tiles/auxiliary/invisible-unisolid-editor.png")
+  )
+
+  (tiles
+    (width 3)
+    (height 7)
+    (ids
+      2154 2153 2154
+      2155 2156 2157
+      2158 2159 2160
+      2161 2162 2163
+      2164 2165 2166
+      2167 2168 2169
+      2170 2171 2172
+    )
+    (image "tiles/totem/totem.png")
   )
 
 ;; next-id: 2154
