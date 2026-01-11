@@ -1,7 +1,8 @@
 (supertux-level-subset
-  (title (_ "Icy Island"))
-  (description (_ "Where your adventure begins."))
+  (title (_ "Bakey Island"))
+  (description (_ "a very super tux"))
   (levelset #f)
   (hide-from-contribs #t)
   (title-level "/levels/misc/menu.stl")
 )
+
