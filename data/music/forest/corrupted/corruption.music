@@ -1,0 +1,7 @@
+(supertux-music
+  (file "corruption.ogg")
+  (authors "Sophie \"Vaesea\" Ball")
+  (license "CC-BY-SA")
+  (loop-begin 0)
+  (loop-at -1)
+)
