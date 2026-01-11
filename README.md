@@ -12,23 +12,15 @@ power-ups and other stuff on the way.
 VaeseaTux is a mod for SuperTux. It doesn't have much right now.
 
 
-## Story: Penny gets captured!
+## Story: Tux has had enough.
 
-Tux and Penny were out having a nice picnic on the ice fields of
-Antarctica. Suddenly, a creature jumped from behind an ice bush, there
-was a flash, and Tux fell asleep!
+After 64 (those who know... super mario 64...) years of Nolok capturing Penny every month, Tux has had enough (how did he not have enough with this (stuff) beforre?)
 
-When Tux wakes up, he finds that Penny is missing. Where she lay
-before now lies a letter:
->Tux, my arch enemy! I have captured your beautiful Penny and have
->taken her to my fortress. The path to my fortress is littered with my
->minions. Give up on the thought of trying to reclaim her, you haven't
->got a chance!
->
->-Nolok
+He learns where Nolok is now. "Egg Forest", a forest with 0 eggs. No eggs. Absolutely none. It's named after my old username.
 
-Tux looks and sees Nolok's fortress in the distance. Determined to
-save his beloved Penny, he begins his journey.
+He doesn't realize that Nolok plans on moving to "Egg Forest" which again, has no eggs.
+
+It's only when he arrives to Bakey Island that he realizes that he went the wrong way because he's stupid.
 
 ## Installation
 
@@ -47,6 +39,8 @@ licensed. (Most of the data subdirectory is also licensed under
 CC-by-SA)
 * `data/credits.stxt` - Credits for people that contributed to the creation of
 SuperTux. (You can view these in the game menu as well.)
+
+and yes i plan to edit credits.stxt to be the credits of vaeseatux instead with a small addition saying that supertux team made supertux.
 
 
 ## Playing the game
