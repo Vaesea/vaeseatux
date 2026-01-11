@@ -16,8 +16,6 @@ After 64 (those who know... super mario 64...) years of Nolok capturing Penny ev
 
 He learns where Nolok is now. "Egg Forest", a forest with 0 eggs. No eggs. Absolutely none. It's named after my old username.
 
-He doesn't realize that Nolok plans on moving to "Egg Forest" which again, has no eggs.
-
 It's only when he arrives to Bakey Island that he realizes that he went the wrong way because he's stupid.
 
 ## Installation
