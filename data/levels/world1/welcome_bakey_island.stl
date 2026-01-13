@@ -34,6 +34,14 @@
       (image-bottom "images/background/misc/water_bottom.png")
       (z-pos -350)
     )
+    (background
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -10)
+      (speed 0)
+      (image "/images/background/misc/clouds.png")
+      (z-pos -399)
+    )
     (bouncingsnowball
       (z-pos 50)
       (x 1984)
