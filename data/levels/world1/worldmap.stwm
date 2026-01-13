@@ -26,6 +26,7 @@
     )
     (level
       (z-pos 50)
+      (level "welcome_bakey_island.stl")
       (x 17)
       (y 88)
     )
