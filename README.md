@@ -9,10 +9,12 @@ power-ups and other stuff on the way.
 
 VaeseaTux is a mod for SuperTux. It doesn't have much right now.
 
+Any help with music is appreciated.
+
 
 ## Story: Tux has had enough.
 
-After 64 (those who know... super mario 64...) years of Nolok capturing Penny every month, Tux has had enough (how did he not have enough with this (stuff) beforre?)
+After 64 (those who know... super mario 64...) years of Nolok capturing Penny every month, Tux has had enough (how did he not have enough with this (stuff) before?)
 
 He learns where Nolok is now. "Egg Forest", a forest with 0 eggs. No eggs. Absolutely none. It's named after my old username.
 
