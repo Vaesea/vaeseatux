@@ -389,7 +389,7 @@
     )
     (music
       (name "Music_Object")
-      (file "/music/antarctic/midday_alt.music")
+      (file "/music/misc/arcticdance.music")
     )
     (path
       (name "gen1768217218138509538215648")
@@ -690,7 +690,7 @@ Level.spawn(\"underground\", \"main\", \"circle\");")
     )
     (music
       (name "Music_Object")
-      (file "/music/antarctic/cavetheme.music")
+      (file "/music/misc/bonuscaveremix.music")
     )
     (scripttrigger
       (oneshot #t)

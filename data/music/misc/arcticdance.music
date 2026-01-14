@@ -1,0 +1,7 @@
+(supertux-music
+  (file "arcticdance.ogg")
+  (authors "Vaesea")
+  (license "CC-BY-SA 4.0")
+  (loop-begin 12)
+  (loop-at    108)
+)
